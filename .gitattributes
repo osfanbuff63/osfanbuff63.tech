@@ -1,0 +1,4 @@
+# Normalize text to LF
+* text=auto
+
+*.md linguist-detectable=true
