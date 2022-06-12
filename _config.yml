@@ -25,7 +25,7 @@ description: >-
 baseurl: "" 
 url: "https://osfanbuff63.github.io" 
 github_username: osfanbuff63
-repo: osfanbuff63/osfanbuff63.github.io
+repository: osfanbuff63/osfanbuff63.github.io
 
 # Build settings
 theme: minimal-mistakes-jekyll
