@@ -1,0 +1,31 @@
+name: Build and Deploy to GitHub Pages
+on:
+  push:
+    branches:
+      - master 
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1.2
+      - name: Cache ruby dependencies
+        uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Deploy to GitHub Pages # to do: use different action
+        uses: jeffreytse/jekyll-deploy-action@v0.3.1
+        with:
+          provider: 'github'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          jekyll_src: './'
+          pre_build_commands: |
+            git config --global user.name actions-user
+            git config --global user.email action@github.com
