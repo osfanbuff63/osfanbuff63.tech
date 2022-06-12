@@ -46,6 +46,9 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
+    jekyll-github-metadata (2.15.0)
+      jekyll (>= 3.4, < 5.0)
+      octokit (~> 4.0, != 4.4.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-mentions (1.6.0)
@@ -107,6 +110,7 @@ GEM
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
+    wdm (0.1.1)
     webrick (1.7.0)
 
 PLATFORMS
@@ -116,6 +120,7 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.2.2)
   jekyll-feed (~> 0.12)
+  jekyll-github-metadata (~> 2.15.0)
   jekyll-include-cache (~> 0.2.1)
   jekyll-mentions (~> 1.6.0)
   jekyll-paginate-v2 (~> 3.0.0)
@@ -123,7 +128,7 @@ DEPENDENCIES
   minimal-mistakes-jekyll (~> 4.24.0)
   tzinfo (~> 1.2)
   tzinfo-data
-  wdm (~> 0.1.1)
+  wdm (>= 0.1.1)
   webrick (~> 1.7.0)
 
 BUNDLED WITH

@@ -23,8 +23,9 @@ email: osfanbuff63@gmail.com
 description: >- 
   osfanbuff63's thoughts on various things, and updates on important stuff, etc
 baseurl: "" 
-url: "https://osfanbuff63.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://osfanbuff63.github.io" 
 github_username: osfanbuff63
+repo: osfanbuff63/osfanbuff63.github.io
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -34,7 +35,7 @@ plugins:
   - 'jekyll-paginate-v2'
   - 'jekyll-mentions'
   - 'jemoji'
-  #- 'jekyll-github-metadata'
+  - 'jekyll-github-metadata'
 minimal_mistakes_skin: "dark" 
 
 # Exclude from processing.
@@ -56,3 +57,22 @@ minimal_mistakes_skin: "dark"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: R_kgDOHfNGyQ
+    category_name: General
+    category_id: DIC_kwDOHfNGyc4CPnwL
+    discussion_term: pathname
+    reactions_enabled: 1
+    theme: dark
+defaults:
+   - scope:
+       path: ""
+       type: pages
+     values:
+       layout: single
+       author_profile: false
+       sidebar: true
+include: [_pages]
