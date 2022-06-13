@@ -4,6 +4,12 @@ author_profile: true
 permalink: /
 ---
 
-# Hi, I'm osfanbuff63
+# Hello! :wave:
 
-Hi, I'm osfanbuff63! In my free time, I spend time working on open-source projects - mostly Minecraft datapacks, [here's a list of all my datapacks](datapacks) -
+Hi, I'm osfanbuff63! In my free time, I spend time working on open-source projects, mostly Minecraft datapacks or documentation for various services. Here's some links for more:
+
+- [A list of all my datapacks](datapacks)
+- [More about me](about)
+- [How to contact me](contact)
+
+If you want to ask me a question about anything here, leave a comment (if Giscus works lol), or [contact me](contact)!
