@@ -14,7 +14,7 @@ Thanks for all these people for making cool stuff:
 - GitHub for GitHub Pages
 - All the people who I use actions from
 - RiiConnect24 for getting me into Jekyll in the first place
-- YOU! For reading this post! 
+- YOU! For reading this post!
 
 There's much more to come, stay tuned!
 
