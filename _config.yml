@@ -35,7 +35,6 @@ plugins:
   - 'jekyll-paginate-v2'
   - 'jekyll-mentions'
   - 'jemoji'
-  - 'jekyll-github-metadata'
 minimal_mistakes_skin: "dark" 
 
 # Exclude from processing.
