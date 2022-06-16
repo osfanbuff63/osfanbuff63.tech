@@ -22,11 +22,11 @@ jobs:
             ${{ runner.os }}-gems-
       - name: Install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
-      - name: Deploy to GitHub Pages # to do: use different action
+      - name: Deploy to GitHub Pages 
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           single_commit: true
           git-config-email: action@github.com
           git-config-name: actions-user
-          branch: gh_pages
+          branch: gh-pages
           folder: _site
