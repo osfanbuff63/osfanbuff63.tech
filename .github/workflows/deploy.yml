@@ -13,15 +13,10 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1.2
-      - name: Cache ruby dependencies
-        uses: actions/cache@v3
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
       - name: Install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
+        with:
+          cache: true
       - name: Deploy to GitHub Pages 
         uses: JamesIves/github-pages-deploy-action@v4
         with:
