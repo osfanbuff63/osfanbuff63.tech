@@ -16,8 +16,7 @@ jobs:
       - name: Workaround
         run: |
           git add .
-          git stash
-          git stash drop
+          git commit -m "Workaround"
       - name: Install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
         with:
