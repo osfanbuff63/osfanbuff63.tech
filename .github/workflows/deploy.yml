@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
         with:
-          cache: true
+          enable_cache: true
       - name: Deploy to GitHub Pages 
         uses: JamesIves/github-pages-deploy-action@v4
         with:
