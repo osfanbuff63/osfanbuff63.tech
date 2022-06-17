@@ -15,8 +15,8 @@ jobs:
           ruby-version: 3.1.2
       - name: Install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
-        with:
-          enable_cache: true
+        #with:
+          #enable_cache: true
       - name: Deploy to GitHub Pages 
         uses: JamesIves/github-pages-deploy-action@v4
         with:
