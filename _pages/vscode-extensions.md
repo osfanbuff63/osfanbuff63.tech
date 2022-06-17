@@ -63,6 +63,6 @@ This is great for debugging actions inside of VS Code. The reason it didn't make
 
 ### [NBT Viewer](https://marketplace.visualstudio.com/items?itemName=Misodee.vscode-nbt)
 
-This seems like a great compliment to [Spyglass](#1-data-pack-helper-plusspyglasshttpsmarketplacevisualstudiocomitemsitemnamespgodingdatapack-language-server), but unfortunately I just don't have enough experience with this extension to put it on the chart.
+This seems like a great compliment to [Spyglass](#1-data-pack-helper-plusspyglass), but unfortunately I just don't have enough experience with this extension to put it on the chart.
 
 If you'd like me to check out your extension in the future, [contact me](contact)!
