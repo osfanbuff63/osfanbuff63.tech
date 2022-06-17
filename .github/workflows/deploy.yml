@@ -13,12 +13,6 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1.2
-      - name: Workaround
-        run: |
-          git config --global user.name actions-user
-          git config --global user.email action@github.com
-          git add .
-          git commit -m "Workaround"
       - name: Install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
         with:
