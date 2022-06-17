@@ -13,15 +13,19 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1.2
-      - name: Install dependencies & build site
-        uses: limjh16/jekyll-action-ts@v2
+      - name: Cache ruby dependencies
+        uses: actions/cache@v3
         with:
-          enable_cache: true
-      - name: Deploy to GitHub Pages 
-        uses: JamesIves/github-pages-deploy-action@v4
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Deploy to GitHub Pages # to do: use different action
+        uses: jeffreytse/jekyll-deploy-action@v0.3.1
         with:
-          single-commit: true
-          git-config-email: action@github.com
-          git-config-name: actions-user
-          branch: gh-pages
-          folder: _site
+          provider: 'github'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          jekyll_src: './'
+          pre_build_commands: |
+            git config --global user.name actions-user
+            git config --global user.email action@github.com
