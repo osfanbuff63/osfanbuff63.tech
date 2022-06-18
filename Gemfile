@@ -18,4 +18,4 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem 'wdm', '>= 0.1.1' if Gem.win_platform?
-gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+gem "http_parser.rb", "~> 0.8.0", :platforms => [:jruby]
