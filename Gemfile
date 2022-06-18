@@ -13,7 +13,7 @@ group :jekyll_plugins do
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", "~> 1.2"
+  gem "tzinfo", "~> 2.0"
   gem "tzinfo-data"
 end
 
