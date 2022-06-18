@@ -13,6 +13,6 @@
   "labels": ["dependencies"],
   "commitMessagePrefix": "chore: deps: ",
    // required for merging
-  "rebaseWhen": "outdated",
+  "rebaseWhen": "behind-base-branch",
   "bumpVersion": "patch"
 }
