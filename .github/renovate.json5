@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "config:base",
+      // i dont need an extra issue lol
+    ":disableDependencyDashboard"
+  ],
+  
+  "timezone": "America/New_York",
+  "schedule": [
+      // this is a test to see if valid
+    "on monday-friday from 9am to 8pm"
+  ],
+  "labels": ["dependencies"],
+  "commitMessagePrefix": "chore: deps: ",
+   // required for merging
+  "rebaseWhen": "outdated",
+  "bumpVersion": "patch"
+}
