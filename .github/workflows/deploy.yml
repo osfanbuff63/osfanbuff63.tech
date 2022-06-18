@@ -24,7 +24,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          publish_branch: gh-pages # just to make sure it doesn't change
+          publish_branch: gh-pages # Just to make sure it doesn't change with an update
           user_name: actions-user
           user_email: action@github.com
-          commit_message: 'update: ${{ github.event.head_commit.message }}'  
+          commit_message: 'deployed site update: ${{ github.event.head_commit.message }}'
+          force_orphan: true
