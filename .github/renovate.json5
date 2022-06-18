@@ -8,7 +8,7 @@
   "timezone": "America/New_York",
   "schedule": [
       // this is a test to see if valid
-    "on monday-friday from 9am to 8pm"
+    "after 9am and before 8pm every day"
   ],
   "labels": ["dependencies"],
   "commitMessagePrefix": "chore: deps: ",
