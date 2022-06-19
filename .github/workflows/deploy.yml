@@ -26,5 +26,5 @@ jobs:
           publish_branch: gh-pages # Just to make sure it doesn't change with an update
           user_name: actions-user
           user_email: action@github.com
-          full_commit_message: 'deploy site update: ${{ github.actor }}: ${{ github.event.head_commit.message }} (`${{ github.sha }}`)'
+          full_commit_message: 'deploy site update: @${{ github.actor }}: ${{ github.event.head_commit.message }} (${{ github.sha }})'
           force_orphan: true
