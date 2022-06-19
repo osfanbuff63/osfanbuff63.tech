@@ -21,11 +21,10 @@
 title: osfanbuff63
 email: osfanbuff63@gmail.com
 description: >- 
-  osfanbuff63's thoughts on various things, and updates on important stuff, etc
+  osfanbuff63's thoughts on various things, and updates on important stuff and things! (P.S. Exploring is fun!)
 baseurl: "" 
 url: "https://osfanbuff63.github.io" 
 github_username: osfanbuff63
-repository: osfanbuff63/osfanbuff63.github.io
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -57,15 +56,17 @@ minimal_mistakes_skin: "dark"
 #   - vendor/gems/
 #   - vendor/ruby/
 
+repository: osfanbuff63/osfanbuff63.github.io
 comments:
-  provider: "giscus"
+  provider: giscus
   giscus:
-    repo_id: R_kgDOHfNGyQ
-    category_name: General
-    category_id: DIC_kwDOHfNGyc4CPnwL
-    discussion_term: pathname
-    reactions_enabled: 1
-    theme: dark
+    repo_id              : R_kgDOHfNGyQ
+    category_name        : Announcements
+    category_id          : DIC_kwDOHfNGyc4CPnwK
+    discussion_term      : pathname
+    reactions_enabled    : 1
+    theme                : "dark"
+    crossorigin          : "anonymous"
 defaults:
    - scope:
        path: ""
