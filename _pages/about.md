@@ -6,7 +6,7 @@ permalink: /about
 
 ## Who am I?
 
-I'm a Minecraft datapack creator primarly. However, I also love contributing to open-source projects, and especially writing documentation! I've also more recent experimented with the world of the Nintendo Wii's homebrew (and have contributed to [wii.guide](wii.guide) multiple times).
+I'm a Minecraft datapack creator primarly. However, I also love contributing to open-source projects, and especially writing documentation! I've also more recent experimented with the world of the Nintendo Wii's homebrew (and have contributed to [wii.guide](https://wii.guide) multiple times).
 
 When I'm not playing Minecraft or contributing to a project, I usually shuffle between playing Nintendo Switch Sports, Mario Kart 8 Deluxe, and occasionally Cities: Skylines (but my pc explodes when I try to play that game, my GPU is at 97 C without an overclock lol). On Nintendo games, I go by the name `osfanbuff6` (thanks Nintendo lol). Since I don't have Nintendo Switch Online, the only time you'd realisticly see me with that username is if you (still) have a Wii, and have either [RiiConnect24](https://rc24.xyz) and the Check Mii Out Channel (I think), or [Wiimmfi](https://wiimmfi.de/) and Mario Kart Wii. Or I get Switch Online, lol.
 
