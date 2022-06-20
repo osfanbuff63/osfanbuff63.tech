@@ -60,11 +60,11 @@ repository: osfanbuff63/osfanbuff63.github.io
 comments:
   provider: giscus
   giscus:
-    repo_id              : R_kgDOHfNGyQ
-    category_name        : Announcements
-    category_id          : DIC_kwDOHfNGyc4CPnwK
-    discussion_term      : pathname
-    reactions_enabled    : 1
+    repo-id              : R_kgDOHfNGyQ
+    category             : Announcements
+    category-id          : DIC_kwDOHfNGyc4CPnwK
+    mapping              : pathname
+    reactions-enabled    : 1
     theme                : "dark"
     crossorigin          : "anonymous"
 defaults:
