@@ -17,10 +17,10 @@
     </script>
   {% endif %}
 {% elsif provider == "giscus" %}
-  {% assign giscus = site.giscus %}
-  {% if giscus.repo %}
+  {% assign giscus = site.comments.giscus %}
+  {% if site.repository %}
     <script src="https://giscus.app/client.js"
-            data-repo={{ giscus.repo }}
+            data-repo={{ site.repo }}
             data-repo-id={{ giscus.repo-id }}
             data-category={{ giscus.category }}
             data-category-id={{ giscus.category-id }}
