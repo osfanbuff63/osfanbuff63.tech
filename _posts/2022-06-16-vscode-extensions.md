@@ -2,6 +2,7 @@
 layout: single
 title:  "New VS Code extension page!"
 date:   2022-06-16 19:55:00 -0400
+comments: true
 ---
 
 ## VS Code Extension page finished!

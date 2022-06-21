@@ -2,6 +2,7 @@
 layout: single
 title:  "My thoughts on GitHub's achievements"
 date:   2022-06-15 15:35:00 -0400
+comments: true
 ---
 
 ## Thoughts on Achievements
