@@ -128,6 +128,7 @@ DEPENDENCIES
   jekyll-include-cache (~> 0.2.1)
   jekyll-mentions (~> 1.6.0)
   jekyll-paginate-v2 (~> 3.0.0)
+  jekyll-sitemap (~> 1.4.0)
   jemoji (~> 0.12.0)
   minimal-mistakes-jekyll (~> 4.24.0)
   tzinfo (~> 2.0)
