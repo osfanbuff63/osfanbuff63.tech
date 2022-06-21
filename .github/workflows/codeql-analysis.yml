@@ -1,4 +1,4 @@
-name: "CodeQL"
+name: "CodeQL" # TODO: figure out if this is even needed
 
 on:
   push:
