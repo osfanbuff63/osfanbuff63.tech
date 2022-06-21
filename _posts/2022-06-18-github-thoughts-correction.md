@@ -2,6 +2,7 @@
 layout: single
 title:  "Corrections and extended thoughts on Achievements"
 date:   2022-06-18 18:46:00 -0400
+comments: true
 ---
 
 ## Corrections and more food for thought
