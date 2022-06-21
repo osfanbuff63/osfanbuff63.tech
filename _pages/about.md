@@ -1,5 +1,6 @@
 ---
 permalink: /about
+comments: true
 ---
 
 # About osfanbuff63

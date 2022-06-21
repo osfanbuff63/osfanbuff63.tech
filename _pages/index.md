@@ -2,6 +2,7 @@
 layout: home
 author_profile: true
 permalink: /
+comments: true
 ---
 
 # Hello! :wave:

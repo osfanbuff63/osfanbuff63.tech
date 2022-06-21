@@ -1,6 +1,7 @@
 ---
 title: "My VS Code Extensions"
 permalink: /vscode-extensions
+comments: true
 ---
 
 ## VS Code Extensions
