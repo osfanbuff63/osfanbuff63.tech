@@ -17,7 +17,7 @@ Besides being active on [GitHub](https://github.com/osfanbuff63), I am also acti
 
 I usually use [Windows 10](https://www.microsoft.com/en-us/windows/get-windows-10) as my OS, but would happily use [Ubuntu Linux](https://ubuntu.com/) if I need to!
 
-I'm still using [Chrome](https://chrome.google.com) as my browser, but will use Firefox if I need to. My Chrome extensions can be found [here](chrome-extensions).
+I'm still using [Chrome](https://chrome.google.com) as my browser, but will use Firefox if I need to. ~~My Chrome extensions can be found [here](chrome-extensions)~~ *not complete yet, is a redirect*.
 
 I prefer to use [Visual Studio Code](https://code.visualstudio.com) as my text editor when given an option (you can find a list of my most-used extensions [here](vscode-extensions)) - but for short edits will usually open [Notepad++](https://notepad-plus-plus.org/). [GIMP](https://www.gimp.org/) is my photo editor, and since my PC can't really video edit very well, I'm still using the Microsoft Photos editor built into Windows 10.
 
