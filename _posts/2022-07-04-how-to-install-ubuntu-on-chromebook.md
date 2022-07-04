@@ -92,7 +92,7 @@ Your USB drive will be formatted when you flash the image to it! Make backups of
 
 1. Download the latest Ubuntu Desktop image for your preferred version from [here](https://ubuntu.com/download/desktop).
 2. Download the latest version of BalenaEtcher for your OS from [here](https://www.balena.io/etcher/).
-3. Plug a USB drive into your PC with *at least* 8GB of space. 12GB is recommended.
+3. Plug a USB drive into your PC with *at least* 8GB of space. 12GB of space is recommended.
 4. Open BalenaEtcher and select the Ubuntu Desktop image you downloaded, then select your USB drive. Select `Flash!` when you are ready! Be patient, as this can take a while.
 5. Once it is complete, unplug the USB drive from your computer and keep it in a safe place.
 
