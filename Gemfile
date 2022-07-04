@@ -12,6 +12,7 @@ group :jekyll_plugins do
   gem 'jemoji', '~> 0.12.0'
   gem 'jekyll-sitemap', '~> 1.4.0'
   gem 'jekyll-figure', '~> 0.1.0'
+  gem 'jekyll-algolia', '~> 1.7.1'
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
