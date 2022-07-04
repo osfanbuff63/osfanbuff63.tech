@@ -1,7 +1,7 @@
 name: Initialize Algolia search
 on:
-  deployment:
-    name: github-pages
+  push:
+    branches: [ gh-pages ]
 jobs:
   algolia-search:
     runs-on: ubuntu-latest
