@@ -45,6 +45,7 @@ GEM
       terminal-table (~> 2.0)
     jekyll-feed (0.16.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-figure (0.1.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
     jekyll-include-cache (0.2.1)
@@ -113,7 +114,10 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2022.1)
+      tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
+    wdm (0.1.1)
     webrick (1.7.0)
 
 PLATFORMS
@@ -122,9 +126,10 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  http_parser.rb (~> 0.8.0)
+  http_parser.rb (~> 0.6.0)
   jekyll (~> 4.2.2)
   jekyll-feed (~> 0.12)
+  jekyll-figure (~> 0.1.0)
   jekyll-include-cache (~> 0.2.1)
   jekyll-mentions (~> 1.6.0)
   jekyll-paginate-v2 (~> 3.0.0)
@@ -133,7 +138,8 @@ DEPENDENCIES
   minimal-mistakes-jekyll (~> 4.24.0)
   tzinfo (~> 2.0)
   tzinfo-data
+  wdm (~> 0.1.1)
   webrick (~> 1.7.0)
 
 BUNDLED WITH
-   2.3.16
+   2.3.17
