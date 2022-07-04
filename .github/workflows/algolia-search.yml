@@ -2,7 +2,7 @@ name: Initialize Algolia search
 on:
   push:
     branches:
-      - 'gh-pages'
+      - gh-pages
 jobs:
   algolia-search:
     runs-on: ubuntu-latest
