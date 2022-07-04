@@ -36,7 +36,8 @@ plugins:
   - 'jemoji'
   - 'jekyll-sitemap'
   - 'jekyll-figure'
-minimal_mistakes_skin: "dark" 
+minimal_mistakes_skin: "dark"
+logo: /assets/images/logo/wolfanbuff63_.png
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
