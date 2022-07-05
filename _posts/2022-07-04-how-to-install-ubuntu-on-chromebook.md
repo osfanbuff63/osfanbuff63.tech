@@ -11,7 +11,7 @@ This guide serves as an alternative to [Canonical's own guide](https://ubuntu.co
 
 ## The problems with Crouton
 
-The script Canonical uses in that guide is [crouton](https://github.com/dnschneid/crouton), which [went maintance-only in late 2021](https://github.com/dnschneid/crouton/discussions/4654), and so the default (xenial) is EOL, and focal is in "beta", and jammy isn't supported at all, although there [is a PR for it](https://github.com/dnschneid/crouton/pull/4727). You also end up with a very barebones version of Ubuntu, which isn't ideal.
+The script Canonical uses in that guide is [crouton](https://github.com/dnschneid/crouton), which [went maintance-only in late 2021](https://github.com/dnschneid/crouton/discussions/4654), and so the default (xenial) is EOL, and focal is in "beta", and jammy isn't supported at all, although there [is a PR for it](https://github.com/dnschneid/crouton/pull/4727). You also end up with a very barebones version of Ubuntu, which isn't ideal on most Chromebooks. (And if that isn't the case, then why would you want Ubuntu? Chrome OS is probably fine for your purposes)
 
 In theory, you could also use [Crostini](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/containers_and_vms.md), but I'm just assuming that you want more than that.
 
