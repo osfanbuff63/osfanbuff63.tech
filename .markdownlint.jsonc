@@ -1,0 +1,7 @@
+{
+    // This file is a configuration for markdownlint
+    // You can ignore this if you aren't using this.
+    "MD033": false,
+    "MD013": false,
+    "MD024": false
+}
