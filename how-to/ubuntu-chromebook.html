@@ -1,0 +1,444 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>How To: Installing Ubuntu on a Chromebook - osfanbuff63</title>
+<meta name="description" content="osfanbuff63’s thoughts on various things, and updates on important stuff and things! (P.S. Exploring is fun!)">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="osfanbuff63">
+<meta property="og:title" content="How To: Installing Ubuntu on a Chromebook">
+<meta property="og:url" content="https://osfanbuff63.github.io/how-to/ubuntu-chromebook">
+
+
+  <meta property="og:description" content="osfanbuff63’s thoughts on various things, and updates on important stuff and things! (P.S. Exploring is fun!)">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://osfanbuff63.github.io/how-to/ubuntu-chromebook">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "https://osfanbuff63.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="osfanbuff63 Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/images/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/assets/images/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo/wolfanbuff63_.png" alt="osfanbuff63"></a>
+        
+        <a class="site-title" href="/">
+          osfanbuff63
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="How To: Installing Ubuntu on a Chromebook">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">How To: Installing Ubuntu on a Chromebook
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="how-to-install-ubuntu-on-a-chromebook">How to install Ubuntu on a Chromebook</h2>
+
+<p>This guide serves as an alternative to <a href="https://ubuntu.com/tutorials/install-ubuntu-on-chromebook#1-overview">Canonical’s own guide</a>. This guide has become outdated over the years, and so this is an alternate guide.</p>
+
+<h2 id="the-problems-with-crouton">The problems with Crouton</h2>
+
+<p>The script Canonical uses in that guide is <a href="https://github.com/dnschneid/crouton">crouton</a>, which <a href="https://github.com/dnschneid/crouton/discussions/4654">went maintance-only in late 2021</a>, and so the default (xenial) is EOL, focal is in “beta”, and jammy isn’t supported at all, although there <a href="https://github.com/dnschneid/crouton/pull/4727">is a PR for it</a>. You also end up with a very barebones version of Ubuntu, which isn’t ideal on most Chromebooks. (And if that isn’t the case, then why would you want Ubuntu? Chrome OS is probably fine for your purposes)</p>
+
+<p>In theory, you could also use <a href="https://chromium.googlesource.com/chromiumos/docs/+/HEAD/containers_and_vms.md">Crostini</a>, but I’m just assuming that you want more than that.</p>
+
+<h2 id="the-advantanges-of-this-method">The advantanges of this method</h2>
+
+<p>This method allows to install a <strong>full Ubuntu setup</strong> with most likely <strong>support for all versions</strong> and therefore . As well, it requires almost <strong>nothing</strong> to work and <strong>no hardware modification</strong>. Hardware modification can be made to make this method even better, but I’ll leave a link to how to do that.</p>
+
+<p>This guide was tested on an Acer Chromebook 14, and works perfectly. Offtopic, but the battery in that one died and so it needs to be plugged in :P</p>
+
+<p class="notice--info">This method will only work on x86 Chromebooks, and not ARM ones.</p>
+
+<h2 id="the-guide">The Guide</h2>
+
+<h3 id="what-you-need">What you need</h3>
+
+<p>You will need:</p>
+
+<ul>
+  <li>Your Chromebook to turn into a Ubuntu machine</li>
+  <li>A PC with the ability to create a bootable USB stick for Ubuntu. If you don’t have a system, most likely you can do it via Crostini.</li>
+  <li>Access to the Internet</li>
+</ul>
+
+<h3 id="part-1-entering-developer-mode">Part 1: Entering Developer Mode</h3>
+
+<p>For any of this to work, we need to enter ‘developer mode’ on our Chromebook. Here’s how:</p>
+
+<ol>
+  <li>Turn your Chromebook off if it was already on.</li>
+  <li>Turn your Chromebook on, but simultaneously hold the <code class="language-plaintext highlighter-rouge">Esc</code>, <code class="language-plaintext highlighter-rouge">Refresh</code> and <code class="language-plaintext highlighter-rouge">Power</code> keys all at once. This will pop up a screen relating to Recovery Mode.</li>
+  <li>Once you hit that screen, hit <code class="language-plaintext highlighter-rouge">Ctrl</code> + <code class="language-plaintext highlighter-rouge">D</code>. If you see a prompt that OS verification is off, press <code class="language-plaintext highlighter-rouge">Ctrl</code> + <code class="language-plaintext highlighter-rouge">D</code> again.</li>
+</ol>
+
+<p class="notice--danger">This will wipe all files on your system! Make sure you take backups if you have any important files on your Chromebook!</p>
+
+<p class="notice--info">The OS verification prompt will show up on every boot now, but you can press <code class="language-plaintext highlighter-rouge">Ctrl</code> + <code class="language-plaintext highlighter-rouge">D</code> to go into Developer Mode.</p>
+
+<h3 id="part-2-enabling-booting-from-a-usb-and-installing-seabios">Part 2: Enabling Booting from a USB and installing SeaBIOS</h3>
+
+<p>Now we’ll enable booting from a USB drive. We’ll also install custom firmware, but this isn’t strictly needed, it just makes the process simpler.</p>
+
+<p class="notice--info">If you want to install a UEFI firmware instead, you will need to disable hardware write-protect, which requires hardware modification. This way, you don’t need to modify your hardware, although I do recommend it (I haven’t done it with my own Chromebook though, since I don’t have a small enough screwdriver.)</p>
+
+<h4 id="part-21-enabling-flags">Part 2.1: Enabling flags</h4>
+
+<ol>
+  <li>On any Chrome OS screen, press <code class="language-plaintext highlighter-rouge">Ctrl</code> + <code class="language-plaintext highlighter-rouge">Alt</code> + <code class="language-plaintext highlighter-rouge">Right Arrow</code> to open a shell.</li>
+  <li>Sign in as <code class="language-plaintext highlighter-rouge">chronos</code> with no password and you’ll have a full Bash shell and <code class="language-plaintext highlighter-rouge">sudo</code> access off the bat.</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">sudo crossystem dev_boot_usb=1</code> and then <code class="language-plaintext highlighter-rouge">sudo crossystem dev_boot_legacy=1</code>.</li>
+  <li>Run this set of commands. This will take you to an interface where you can install SeaBIOS.</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nb">cd</span><span class="p">;</span> curl <span class="nt">-LO</span> mrchromebox.tech/firmware-util.sh
+<span class="nb">sudo install</span> <span class="nt">-Dt</span> /usr/local/bin <span class="nt">-m</span> 755 firmware-util.sh
+<span class="nb">sudo </span>firmware-util.sh</code></pre></figure>
+
+<h4 id="part-22-installing-seabios">Part 2.2: Installing SeaBIOS</h4>
+
+<p>You should see a screen like this one, if you don’t, try <a href="#part-21-enabling-flags">step 4 again</a>.</p>
+<figure>
+<p><img src="/assets/images/chromeos-ubuntu/fwutil_cros_wp-on.png" alt="mrchromebox.tech picture" /></p>
+  <figcaption>Credit: <a href="https://mrchromebox.tech">mrchromebox.tech</a></figcaption>
+</figure>
+
+<ol>
+  <li>Select option 1 by pressing 1.</li>
+  <li>If it asks you for a default boot device, select ‘Internal storage’</li>
+  <li>If it asks you for any other options, select ‘No’.</li>
+  <li>Turn off your Chromebook.</li>
+</ol>
+
+<h3 id="part-3-making-an-ubuntu-live-usb">Part 3: Making an Ubuntu Live USB</h3>
+
+<p>Now we’ll make a Ubuntu Live USB drive. This can be done at any point, but we will need it in the next step.</p>
+
+<p class="notice--info">BalenaEtcher is not the only application that can do this, but it is recommended since it works on Windows, macOS, and Linux. <a href="https://rufus.ie/">Rufus</a> is an alternative for Windows.</p>
+
+<p class="notice--danger">Your USB drive will be formatted when you flash the image to it! Make backups of any important files before continuing!</p>
+
+<ol>
+  <li>Download the latest Ubuntu Desktop image for your preferred version from <a href="https://ubuntu.com/download/desktop">here</a>.</li>
+  <li>Download the latest version of BalenaEtcher for your OS from <a href="https://www.balena.io/etcher/">here</a>.</li>
+  <li>Plug a USB drive into your PC with <em>at least</em> 8GB of space. 12GB of space is recommended.</li>
+  <li>Open BalenaEtcher and select the Ubuntu Desktop image you downloaded, then select your USB drive. Select <code class="language-plaintext highlighter-rouge">Flash!</code> when you are ready! Be patient, as this can take a while.</li>
+  <li>Once it is complete, unplug the USB drive from your computer and keep it in a safe place.</li>
+</ol>
+
+<h3 id="part-4-booting-off-of-the-usb-and-installing-ubuntu">Part 4: Booting off of the USB and installing Ubuntu</h3>
+
+<p>Now we get to install Ubuntu on our Chromebook.</p>
+
+<h4 id="part-41-booting-into-seabios">Part 4.1: Booting into SeaBIOS</h4>
+
+<ol>
+  <li>Plug the USB drive that you flashed Ubuntu on to in <a href="#part-3-making-an-ubuntu-live-usb">step 3</a></li>
+  <li>Turn on your Chromebook. You’ll see the normal <code class="language-plaintext highlighter-rouge">OS verification is off</code> screen, but instead of pressing <code class="language-plaintext highlighter-rouge">Ctrl</code> + <code class="language-plaintext highlighter-rouge">D</code>, press <code class="language-plaintext highlighter-rouge">Ctrl</code> + <code class="language-plaintext highlighter-rouge">L</code>.</li>
+</ol>
+
+<h4 id="part-42-booting-to-the-usb-drive-from-seabios">Part 4.2: Booting to the USB drive from SeaBIOS</h4>
+
+<p>You should see a screen that looks something like this:</p>
+<figure>
+<p><img src="/assets/images/chromeos-ubuntu/seabios_boot_1.png" alt="SeaBIOS" /></p>
+  <figcaption>Credit: <a href="https://mrchromebox.tech">mrchromebox.tech</a></figcaption>
+</figure>
+
+<ol>
+  <li>Within around 3 seconds from going into SeaBIOS, press <code class="language-plaintext highlighter-rouge">Esc</code> to open the boot menu. If you miss the timeout and boot into Chrome OS, turn your Chromebook off and then continue from <a href="#part-41-booting-into-seabios">Part 4.1</a>. It may take a few tries.</li>
+  <li>Select your USB drive by pressing the number located next to it. I recommend only having one plugged in so that you are sure you select the right one.</li>
+</ol>
+<figure>
+<p><img src="/assets/images/chromeos-ubuntu/seabios_boot_2.png" alt="SeaBIOS Boot Menu" /></p>
+  <figcaption>Select your USB drive. Credit: <a href="https://mrchromebox.tech">mrchromebox.tech</a></figcaption>
+</figure>
+
+<ol>
+  <li>You should boot onto your Ubuntu Live USB! If it doesn’t, turn off your Chromebook and then continue from <a href="#part-41-booting-into-seabios">Part 4.1</a>. It will take some time depending on your Chromebook however.</li>
+</ol>
+
+<h4 id="part-43-installing-ubuntu">Part 4.3: Installing Ubuntu</h4>
+
+<p>This part of the guide is almost identical to Canonical’s <a href="https://ubuntu.com/tutorials/install-ubuntu-desktop#5-installation-setup">Install Ubuntu Desktop</a> tutorial, but I’ll lead you through it anyway.</p>
+
+<p>You should be sitting on a screen that looks like this before you continue:</p>
+<figure>
+<p><img src="/assets/images/chromeos-ubuntu/welcome-screen.png" alt="Ubuntu welcome screen" /></p>
+  <figcaption>Credit: <a href="https://ubuntu.com/tutorials/install-ubuntu-desktop#4-boot-from-usb-flash-drive">Canonical</a></figcaption>
+</figure>
+
+<p class="notice--info">I recommend plugging in a mouse if you have one at this point, but a trackpad works too.</p>
+
+<ol>
+  <li>Unless you want to try out Ubuntu first, select <code class="language-plaintext highlighter-rouge">Install Ubuntu</code>.</li>
+  <li>Select your keyboard layout and press <code class="language-plaintext highlighter-rouge">Continue</code>.</li>
+  <li>Unless you want a bare-bones install or your Chromebook doesn’t have enough space somehow, select <code class="language-plaintext highlighter-rouge">Normal installation</code>. I recommend selecting <code class="language-plaintext highlighter-rouge">Download updates while installing Ubuntu</code> and <code class="language-plaintext highlighter-rouge">Install third-party software for graphics and Wi-Fi hardware and additional media formats</code>.</li>
+</ol>
+<figure>
+<p><img src="/assets/images/chromeos-ubuntu/download-updates.png" alt="Recommended options" /></p>
+  <figcaption>Credit: <a href="https://ubuntu.com/tutorials/install-ubuntu-desktop#4-boot-from-usb-flash-drive">Canonical</a></figcaption>
+</figure>
+
+<ol>
+  <li>Select <code class="language-plaintext highlighter-rouge">Erase disk and install Ubuntu</code>. You could dual-boot with Chrome OS, but it’s probably not worth effort.</li>
+  <li>If you would like to encrypt your device, select Advanced features… &gt; Use LVM with the new Ubuntu installation &gt; Encrypt the new Ubuntu installation for security, then enter a security key.</li>
+  <li>Select <code class="language-plaintext highlighter-rouge">Install Now</code>, and select your region. If you are connected to the Internet, it will auto-detect it.</li>
+  <li>Create your login details, then be patient as Ubuntu installs.</li>
+  <li>Once it is complete, follow the prompt to restart your system.</li>
+</ol>
+
+<h4 id="part-44-booting-into-ubuntu">Part 4.4: Booting into Ubuntu</h4>
+
+<ol>
+  <li>With your device on the <code class="language-plaintext highlighter-rouge">OS verification is off</code> screen, press <code class="language-plaintext highlighter-rouge">Ctrl</code> + <code class="language-plaintext highlighter-rouge">L</code> again, but don’t press <code class="language-plaintext highlighter-rouge">Esc</code>. This time, it will boot to the internal storage, which will be Ubuntu instead of Chrome OS.</li>
+  <li>Sign in with the login details that you made while installing Ubuntu.</li>
+</ol>
+
+<p>You are done! Welcome to Ubuntu running on Chrome OS! Consider running <code class="language-plaintext highlighter-rouge">sudo apt update &amp;&amp; sudo apt upgrade</code> in the terminal</p>
+
+<h2 id="final-notes">Final notes</h2>
+
+<p>I hope you enjoy using Ubuntu on what once was a Chromebook. In theory, this guide will work for even installing Windows, but <a href="#part-3-making-an-ubuntu-live-usb">Part 3</a>, <a href="#part-42-booting-to-the-usb-drive-from-seabios">Part 4.2</a> and <a href="#part-43-installing-ubuntu">Part 4.3</a> would be different. With Ubuntu, you’ve opened up so many more possiblities for your Chromebook!</p>
+
+<p>This took around 2 hours to write, and so I hope it helps someone out here. Feel free to leave a comment below with any comments or suggestions, or <a href="/contact">contact me</a>! Also, would you like to see a guide on Ubuntu setup? Leave a comment if so! I’ll be watching :P</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Comments</h4>
+      <section id="giscus-comments"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 osfanbuff63. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+    <script>
+  'use strict';
+
+  (function () {
+    var commentContainer = document.querySelector('#giscus-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://giscus.app/client.js');
+    script.setAttribute('data-repo', 'osfanbuff63/osfanbuff63.github.io');
+    script.setAttribute('data-repo-id', 'R_kgDOHfNGyQ');
+    script.setAttribute('data-category', 'Announcements');
+    script.setAttribute('data-category-id', 'DIC_kwDOHfNGyc4CPnwK');
+    script.setAttribute('data-mapping', 'pathname');
+    script.setAttribute('data-reactions-enabled', '1');
+    script.setAttribute('data-theme', 'dark');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+  
+
+
+
+
+
+  </body>
+</html>
