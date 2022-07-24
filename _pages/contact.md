@@ -1,5 +1,6 @@
 ---
 permalink: /contact
+comments: true
 ---
 
 # Contacting me

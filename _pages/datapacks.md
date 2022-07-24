@@ -1,5 +1,6 @@
 ---
 permalink: /datapacks
+comments: true
 ---
 
 # Datapacks
