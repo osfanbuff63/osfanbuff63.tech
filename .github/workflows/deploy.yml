@@ -1,5 +1,9 @@
 name: Build and Deploy to GitHub Pages
 on: [push, pull_request]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 jobs:
   build:
     # Only run on PRs if the source branch is on someone else's repo
