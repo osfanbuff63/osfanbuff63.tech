@@ -30,7 +30,7 @@ jobs:
       - name: Setup Pages
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
         id: pages
-        uses: actions/configure-pages@677bce179795ae7b05138538c8665f62cd0cdd7c
+        uses: actions/configure-pages@e22fa7ebed408f1742133d89012dbe1dad4646fc
       - name: Build Jekyll
         uses: limjh16/jekyll-action-ts@9edf74e2e5aaa10d272c427efb8702a45a70a0b2
         with:
