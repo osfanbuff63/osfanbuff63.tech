@@ -37,7 +37,7 @@ jobs:
           enable_cache: true
       - name: Upload artifact
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
-        uses: actions/upload-pages-artifact@ceec27c96bc4983b4e6c48bee599d67014b8db2e 
+        uses: actions/upload-pages-artifact@f4e69017a716d2d729b620cba1f4016257fedec6 
         
   deploy:
     environment:
