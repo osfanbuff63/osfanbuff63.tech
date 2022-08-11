@@ -41,7 +41,7 @@ logo: /assets/images/logo/wolfanbuff63_.png
 search: algolia
 algolia:
   application_id: ZQ6L87PLR5
-  index_name: osfanbuff63.github.io
+  index_name: osfanbuff63.tech
   search_only_api_key: 20b70b6b90e1382499869361bdc22270
   powered_by: true
 # Exclude from processing.
@@ -64,7 +64,7 @@ algolia:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-repository: osfanbuff63/osfanbuff63.github.io
+repository: osfanbuff63/osfanbuff63.tech
 comments:
   provider: giscus
   giscus:
