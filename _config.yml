@@ -82,7 +82,7 @@ defaults:
        layout: single
        author_profile: false
        sidebar: true
-include: [_pages]
+include: [_pages, .well-known]
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
 pagination:
