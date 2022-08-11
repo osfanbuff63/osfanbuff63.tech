@@ -60,4 +60,4 @@ jobs:
            pipelines.actions.githubusercontent.com:443
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@eaaccf9fc5bdd22d4a09b60d72b4c2dd07d8ad37
+        uses: actions/deploy-pages@e490850a64fea2143eb618fcd4453e397842ae0c
