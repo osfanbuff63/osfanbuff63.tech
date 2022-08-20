@@ -100,6 +100,7 @@ Make sure you are finished with OS setup & updates, and if you didn't connect to
 1. If you aren't in your OS, turn on your Raspberry Pi.
 2. Plug in your USB drive with the Plex server files on it or download them from the cloud if you used that method.
 3. Open a terminal and run these commands: (If you don't want to run all these yourself, grab [this shell script](/assets/files/rp-plex/plexmediaserver.sh) and run `sudo bash plexmediaserver.sh`.)
+<!-- markdownlint-disable -->
 {% highlight shell %}
 sudo apt install curl # I'm not sure this is included by default
 curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add -
@@ -107,6 +108,7 @@ echo deb https://downloads.plex.tv/repo/deb public main | sudo tee /etc/apt/sour
 sudo apt update && sudo apt upgrade # This makes sure we are up-to-date
 sudo apt install plexmediaserver
 {% endhighlight %}
+<!-- markdownlint-enableconfig -->
 4. Open the Apps menu from the bottom left corner and select `plexmediaserver`. This will open a tab in your browser (if you are following this tutorial with Ubuntu - Firefox will open)
 5. Follow the setup. I've included pictures with captions for you.
 {% figure caption:"Select a name for your server. Credit: [Plex](https://support.plex.tv/articles/200288896-basic-setup-wizard/) %}
