@@ -1,9 +1,0 @@
-name: Test build
-on: [push, pull_request]
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-jobs:
-  test:
-    uses: osfanbuff63/action-workflows/.github/workflows/jekyll-test.yml@v1
