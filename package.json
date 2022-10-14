@@ -1,0 +1,27 @@
+{
+  "name": "osfanbuff63-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://portfolio.osfanbuff63.tech/",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.7.0",
+    "expr-eval": "^2.0.2",
+    "jquery": "^3.6.1",
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-onclickoutside": "^6.12.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8"
+  }
+}
