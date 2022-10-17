@@ -5,7 +5,7 @@
   "homepage": "https://portfolio.osfanbuff63.tech/",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --output public",
     "start": "next start",
     "export": "next export"
   },
