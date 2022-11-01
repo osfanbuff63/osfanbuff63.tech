@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/osfanbuff63
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://osfanbuff63.tech
+  * I am osfanbuff63 (https://keybase.io/osfanbuff63) on keybase.
+  * I have a public key ASDW2z05qzt42mYAIX5vR-_iH9KDDRNz4S6A_7yOK-Rtwgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d6db3d39ab3b78da6600217e6f47efe21fd2830d1373e12e80ffbc8e2be46dc20a",
+      "host": "keybase.io",
+      "kid": "0120d6db3d39ab3b78da6600217e6f47efe21fd2830d1373e12e80ffbc8e2be46dc20a",
+      "uid": "d2f1109852ba7f915b12892e897b4f19",
+      "username": "osfanbuff63"
+    },
+    "merkle_root": {
+      "ctime": 1667303629,
+      "hash": "2ac134bb7298985f07cd16b84031c341fe3874256e9cb795b73c4610cfe153f1fa0f56f5eab09b6f14b1692728d963107ad28071bf73871c4dd4cb50685fa549",
+      "hash_meta": "edf7e5be5d7d5d005b6242ec9cbf5dd7938d94ad63ab39c47f3877dfaae58cce",
+      "seqno": 23468038
+    },
+    "service": {
+      "entropy": "H0nuzZsTC5kB6QBUwSPhL/kK",
+      "hostname": "osfanbuff63.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1667303701,
+  "expire_in": 504576000,
+  "prev": "be022452c0f6f2085caca24ea64fc952cc3c187fec468d696c218b52622ac07e",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg1ts9Oas7eNpmACF+b0fv4h/Sgw0Tc+EugP+8jivkbcIKp3BheWxvYWTESpcCC8QgvgIkUsD28ghcrKJOpk/JUsw8GH/sRo1pbCGLUmIqwH7EIMCJFCh5SF7df2TdXNZqQHNmlg8YVw2sKN5+jt84aivoAgHCo3NpZ8RAkAoSuOug8iFaFfZISnyhGB1a3eyDZ8KUXZjrt09TSXQp1lkkbFYlUzzR1fB+5P+R/8FDcLa6OShppUhUKmkZDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINz2IjQAcjY0F1l6jawRSUNKzm7i3EPpK3jZYpJtc+v4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/osfanbuff63
+
+==================================================================
